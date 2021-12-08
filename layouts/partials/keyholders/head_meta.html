@@ -1,0 +1,26 @@
+<!-- Everything about SEO, METATags, SCSS -->
+<!-- Maintain Device Width for mobile -->
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta content= "{{truncate 80 .Params.Seosection.description}}" name="description">
+<meta property="og:site_name" content="{{.Site.Title}}">
+<meta property="og:type" content="website">
+<meta content="{{.Params.Seosection.title}}" property="og:title">
+<meta content="{{.Params.Seosection.description}}" name="og:description">
+<meta content="{{.Params.Seosection.image_OG}}" property="og:image">
+
+<meta content="{{.Params.Seosection.title}}" property="twitter:title">
+<meta content="{{.Params.Seosection.description}}" property="twitter:description">
+<meta content="{{.Params.Seosection.image_OG}}" property="twitter:image">
+<meta content="summary_large_image" name="twitter:card">
+<link rel="canonical" href="{{.Site.BaseURL}}" />
+
+<!-- Everything about CSS Styling - This code makes the CSS dynamic -->
+{{- $stylecss := resources.Get "css/main.css" -}}
+<!-- Component CSS styling -->
+{{- $cssComponents := resources.Match "css/component/*.css" -}}
+  {{- range $cssComponents -}}
+    {{- $stylecss = slice  .  $stylecss | resources.Concat .Name -}}
+  {{- end -}}
+ {{- $stylecss = slice $stylecss | resources.Concat "all.css" -}}
+ <link rel="stylesheet" href="{{$stylecss.Permalink}}">
+ <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>

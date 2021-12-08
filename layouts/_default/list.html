@@ -1,0 +1,21 @@
+{{ define "mainContent"}}
+{{partial "breadcrumb_code" .}}
+<div class="page-header">
+    <div class="container-big">
+      <div class="pages-header-inside">
+        <h1 class="color-text-white">{{.Section}}</h1>
+        <p class="text-subpages">{{.Params.Header.summary}}</p>
+      </div>
+    </div>
+  </div>
+<section>
+  <div class="page-padding">
+    <div class="container-big">
+      {{range .Pages }}
+        {{partial "insight_basic_blog_holder" .}}
+      {{end}}
+    </div>
+  </div>
+</section>
+
+{{end}}

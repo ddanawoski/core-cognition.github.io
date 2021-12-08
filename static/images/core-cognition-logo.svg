@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="67.045" viewBox="0 0 120 67.045">
+  <g id="core-cognition-logo" transform="translate(-10 -11.978)">
+    <circle id="circle2" cx="21.5" cy="21.5" r="21.5" transform="translate(21 25)" fill="#fff" stroke="#000" stroke-width="3"/>
+    <line id="line1" x2="70" transform="translate(10 46)" stroke="#000" stroke-width="3"/>
+    <line id="line3" x2="45" y2="51" transform="translate(20 22)" stroke="#000" stroke-width="3"/>
+    <line id="line4" transform="translate(130 38)" stroke="#000" stroke-width="3"/>
+    <line id="line5" y1="49" x2="46" transform="translate(18 22)" stroke="#000" stroke-width="3"/>
+    <line id="line2" y1="67" x2="1" transform="translate(40 12)" stroke="#000" stroke-width="3"/>
+    <path id="path1" d="M116.73,70.473h0c-6.271-19.384,7.411-53.59,1.71-42.188" transform="translate(-45.159 -6.024)" fill="none" stroke="#000" stroke-width="3"/>
+    <line id="line6" transform="translate(81 45)" stroke="#000" stroke-width="1"/>
+    <line id="line7" transform="translate(79 73)" stroke="#000" stroke-width="3"/>
+    <path id="path2" d="M127,79.02c7.981-26.795,2.851-52.45,2.851-52.45V26" transform="translate(-50.298 -6.019)" fill="none" stroke="#000" stroke-width="3"/>
+  </g>
+</svg>

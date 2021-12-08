@@ -1,0 +1,66 @@
+{{- define "mainContent" -}}
+
+    <!-- Header code holder -->
+  <div class="header">
+    <div class="container-big">
+      <div class="header-content-wrap">
+        {{- $access_headerSection := .Params.HeaderContent -}}
+          {{with $access_headerSection}}
+            <h1 class="color-text-white">{{$access_headerSection.Heading}}</h1>
+            <p class="text-subhead color-text-white">{{$access_headerSection.content}}</p>
+              <div class="heading-buttons-wrap">
+                <a href="#" class="button w-button">Explore insight</a>
+                <a href="/#core-cognition" class="info-link w-inline-block">
+               <div>What is core cognition?</div>
+                </a>
+              </div>
+           {{- end -}}
+      </div>
+    </div>
+   {{- partial "homepage/featured-image" . -}}
+  </div>
+
+  <!-- What is Core Cognition -->
+  <section id="core-cognition">
+    <div class="page-padding">
+      <div class="container-big">
+        <div class="core-cognition-wrapper">
+          {{ $access_secondSection := .Params.Secondsection}}
+            {{ with $access_secondSection }}
+              <h2 class="semi-bold">{{$access_secondSection.heading}}</h2>
+              <p>{{$access_secondSection.content}}</p>
+            {{end}}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- the Section basis block -->
+  {{partial "homepage/section_basics" .}}
+
+  <!-- The analyses Block -->
+  {{partial "homepage/section_analyses" .}}
+
+  <!-- This partial references the slider - Function for slider -->
+  {{- partial "homepage/slider" . -}}
+
+  <!-- include the Blog section -->
+  <section>
+    <div class="page-padding">
+      <div class="container-big">
+        <div class="center-text">
+          {{- with .GetPage "blog/_index.md" -}}<h2 class="semi-bold">{{.Section}}</h2>{{- end -}}
+        </div>
+        <div class="blog-grid-homepage">
+          {{- range where .Site.RegularPages "Section" "blog" -}}
+          <div>
+            <div class="featured-blog-image"></div>
+            <h3>{{.Title}}</h3>
+            <p>{{.Params.Header.summary}}</p>
+          </div>
+          {{- end -}}
+        </div>
+      </div>
+    </div>
+  </section>
+{{- end -}}

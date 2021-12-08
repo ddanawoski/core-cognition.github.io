@@ -1,0 +1,33 @@
+<section>
+  <div class="page-padding">
+    <div class="container-big">
+
+      <div class="blog-structure">
+        {{range .Pages}}
+        <div class="blog-summary-item">
+          {{ range .Params.categories}}
+          <a href="/categories/{{.|urlize}}" class="category-holder w-inline-block">
+            <div>{{.}}</div>
+          </a>
+          {{end}}
+          <a href="{{.Permalink}}" class="blog-item-link w-inline-block">
+            <div class="blog-featured-img"><img src="{{.Params.Header.featuredimage}}" loading="lazy" alt="">
+              {{with .Params.Header.featuredvideo}}
+              <div class="abs-blog-summary">
+                <div>Video Blog</div>
+              </div>
+              {{end}}
+            </div>
+            <h2 class="post-headings blogging">{{.Params.Header.heading}}</h2>
+            <p>{{.Params.Header.summary}} </p>
+          </a>
+          <div style="display:none !important">
+                {{.Content}}
+          </div>
+        </div>
+
+        {{end}}
+      </div>
+    </div>
+  </div>
+</section>

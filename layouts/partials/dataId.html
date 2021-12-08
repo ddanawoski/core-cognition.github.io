@@ -1,0 +1,1 @@
+{{$section := .Section }}{{if or (eq $section "basic-insight") (eq $section "blog")}}{{.Site.Params.blogpostId}}{{else}}{{.Params.dataId}}{{end}}

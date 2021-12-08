@@ -1,0 +1,37 @@
+<!-- This is the Navbar code -->
+<div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navigation w-nav">
+<div class="container-big navbar">
+  <div class="language-holder-top">
+      <div class="lang-text">Language:</div>
+      <div class="language-holder">
+        <div data-w-id="80e6da64-0b36-b498-6e3e-9d2315922794" class="language-picker">
+          <div>{{.Language.LanguageName}}</div>
+          <div class="sm-mtr-language">󰅀</div>
+        </div>
+        <div class="language-options">
+          {{- range .Translations -}}
+          <a href="{{.Permalink}}" class="languages w-inline-block">
+            <div>{{.Language.LanguageName}}</div>
+          </a>
+          {{- end -}}
+        </div>
+      </div>
+  </div>
+
+  <!-- This code imports logo -->
+  <a href="/" aria-current="page" class="brand w-nav-brand w--current" aria-label="">
+    <img src="{{.Site.Params.logo}}" loading="lazy" alt="">
+  </a>
+  <nav role="navigation" class="nav-menu w-nav-menu">
+    {{- range .Site.Menus.navmenu -}}
+      <a href="{{.URL}}" class="nav-link w-nav-link">{{.Name}}</a>
+    {{- end -}}
+      <a href="/explore-site/" class="button nav w-button">Explore site</a>
+  </nav>
+  <div class="hamburger w-nav-button">
+      <div class="w-icon-nav-menu"></div>
+  </div>
+</div>
+
+
+</div>

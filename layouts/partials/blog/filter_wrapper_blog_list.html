@@ -1,0 +1,39 @@
+<div class="filter-wrapper-blog">
+  <div class="text-search-based">search based on</div>
+  <div class="filter-tags">
+    <div data-w-id="e1f9f840-31a2-760f-9745-029e91893ec6" class="filter-tags-item">
+      <div>Tags</div>
+      <div class="drop-down-icon">󰅀</div>
+    </div>
+    <div style="display:none" class="filter-tags-dropdown">
+        {{ range where .Site.Taxonomies.tags "Section" "blog"}}
+          <a filter-by="{{.Page.Title}}" href="#" class="tags-item w-inline-block">
+            <div>{{.Page.Title}}</div>
+          </a>
+        {{end}}
+
+
+    </div>
+  </div>
+  <div class="filter-tags">
+    <div data-w-id="c2082aa5-a0e3-ac82-4cf1-475671564ad0" class="filter-tags-item">
+      <div>categories</div>
+      <div class="drop-down-icon">󰅀</div>
+    </div>
+    <div style="display:none" class="filter-tags-dropdown">
+      {{ range where .Site.Taxonomies.categories "Section" "blog"}}
+      <a filter-by="{{.Page.Title}}" href="#" class="tags-item w-inline-block">
+        <div>{{.Page.Title}}</div>
+      </a>
+      {{end}}
+    </div>
+  </div>
+
+  <div class="search-form">
+    <form id="email-form-2" name="email-form-2" data-name="Email Form 2" class="search-form-holder"><input type="text" class="search-field w-input" maxlength="256" name="Search" filter-by="*" data-name="Search" placeholder="Search" id="Search">
+      <div class="search-icon">
+        <div>󰍉</div>
+      </div>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+<section>
+  <div class="page-padding">
+    <div class="container-big">
+      <div class="insight-wrapgrid analyses">
+        <div class="insight-contents-wrapper">
+          {{range first 5 (where .Site.RegularPages "Section" "analyses")}}
+          <a data-w-id="7594e64e-0825-24ee-e059-615b324d3c6d" href="{{.URL}}" class="insight-item-wrap w-inline-block">
+            <h3 style="color:rgb(38,38,38)" class="heading-3-insight">{{.Params.Header.heading}}</h3>
+            <p>{{.Params.Header.summary}}</p>
+            <div class="read-more-link">
+              <div class="readmore-inside-wrap">
+                <div style="color:rgb(184,177,146)" class="text-readmore-xm">Read more</div>
+                <div class="font-icon-arrow">󱦰</div>
+              </div>
+            </div>
+          </a>
+          {{end}}
+        </div>
+        <div class="topics-heading-wrap right-align">
+          {{with .Site.GetPage "/analyses/_index.md"}}
+            <h2>{{.Params.Header.heading}}</h2>
+            <p>{{.Params.Header.homepageSummary}}</p>
+            <a href="#" class="button w-button">the basics details</a>
+          {{end}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

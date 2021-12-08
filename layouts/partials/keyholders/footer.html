@@ -1,0 +1,47 @@
+<footer>
+    <div class="subscribe-holder">
+      <div class="subscribe-heading-wrap">
+        <h2 class="subscribe-heading">Subscribe</h2>
+        <p>Be the first to know about our updates</p>
+      </div>
+     <div class="form-block w-form">
+        <form id="email-form" action="" class="subscribe-form">
+          <input type="email" class="subscribe-input-text w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="What is your email address" id="email-2" required=""><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button">
+        </form>
+        <div class="w-form-done">
+          <div>Thank you! Your submission has been received!</div>
+        </div>
+        <div class="w-form-fail">
+          <div>Oops! Something went wrong while submitting the form.</div>
+        </div>
+    </div>
+    </div>
+
+    <div class="footer-quicklink-holder">
+      <div class="footer-quicklink-wrap">
+        <a href="#" class="footerlink">basic insights</a>
+        <a href="#" class="footerlink">analyses</a>
+        <a href="#" class="footerlink">blog</a>
+        <a href="#" class="footerlink">About</a>
+        <a href="#" class="footerlink">explore site</a>
+      </div>
+    </div>
+
+    <div class="footer-lastlayer-wra">
+      <div class="last-line">
+        <p>All material on corecognition.com can be reused, reposted, or adapted as long as a link to the original page(s) is clearly included</p>
+        <div class="copyright">Copyright © 2021</div>
+      </div>
+    </div>
+  </footer>
+
+{{- $optainJS := resources.Get "/js/main.js" -}}
+<!-- Component JS scripting -->
+{{- $jsComponents := resources.Match "js/component/*.js" -}}
+  {{- range $jsComponents -}}
+    {{- $optainJS = slice . $optainJS | resources.Concat .Name -}}
+  {{- end -}}
+{{- $optainJS = slice $optainJS | resources.Concat "all.js" -}}
+<script src="{{$optainJS.Permalink}}" type="text/javascript"></script>
+<!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+<!--  Hosted Library script file on CDN for free  -->

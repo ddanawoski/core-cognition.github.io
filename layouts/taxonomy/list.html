@@ -1,0 +1,12 @@
+{{ define "mainContent"}}
+{{partial "breadcrumb_code" .}}
+<div class="page-header blog">
+    <div class="container-big">
+      <div class="pages-header-inside">
+        <h1 class="color-text-white">{{.Section}}: {{.Title}}</h1>
+      </div>
+    </div>
+</div>
+
+{{partial "blog/summary_layout_blog_post" .}}
+{{end}}

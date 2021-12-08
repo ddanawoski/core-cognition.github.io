@@ -1,0 +1,49 @@
+{{define "mainContent"}}
+{{partial "breadcrumb_code" .}}
+<div class="page-header blog">
+    <div class="container-big">
+      <div class="pages-header-inside">
+        <h1 class="color-text-white">{{.Title}}</h1>
+      </div>
+    </div>
+</div>
+
+<div class="page-padding">
+  <div class="container-big">
+    This is a text explaining how the site is configured
+  </div>
+</div>
+
+<section>
+    <div class="page-padding">
+      <div class="container-big">
+        <div class="explore-site">
+          {{- range $taxonomy_term, $taxonomy := .Site.Taxonomies -}}
+          {{- with $.Site.GetPage (printf "/%s" $taxonomy_term) -}}
+          <div class="taxonomy-wrap">
+            <div>
+              <h2>Explore via {{ $taxonomy_term }}</h2>
+            </div>
+            {{- range $key, $value := $taxonomy -}}
+            <div class="taxonmy-top-wrapper">
+              <div data-w-id="68b9266e-7169-6559-2cce-4c2de5a6ca93" class="taxonomy-head-top">
+                <div>{{ $key }}</div>
+                <div class="taxonomy-mtr">󰅂</div>
+              </div>
+              <div class="taxonomy-structure inner">
+                {{- range $value.Pages -}}
+                <a href="{{ .Permalink}}" class="taxonomy-items w-inline-block">{{ .LinkTitle }}</a>
+                {{end}}
+              </div>
+            </div>
+            {{end}}
+          </div>
+            {{- end -}}
+
+          {{ end }}
+        </div>
+      </div>
+    </div>
+</section>
+
+{{end}}

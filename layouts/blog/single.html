@@ -1,0 +1,34 @@
+{{define "mainContent"}}
+<div class="breadcrumb-wrapper">
+{{partial "breadcrumb_code" .}}
+</div>
+<!-- call partial - Blog post header -->
+{{partial "blog/post_header" .}}
+<section>
+    <div class="page-padding">
+      <div class="container-big">
+        {{ $youtubeId := .Params.Header.featuredvideo}}
+        {{with .Params.Header.featuredvideo}}
+        <div class="video_section">
+          <div style="padding-top:56.17021276595745%" class="w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F{{$youtubeId}}%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D{{$youtubeId}}&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F{{$youtubeId}}%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe></div>
+        </div>
+        {{end}}
+
+        <div class="blog-post-structure">
+          <div class="tableofcontent">
+            <h2 class="toc-heading">Table of Content</h2>
+            <div>
+               {{ .TableOfContents }}
+            </div>
+          </div>
+          <div>
+            <div class="div-block"><img src="{{.Params.Media.featuredimage}}" alt="{{.Params.Media.alt}}"></div>
+            <div class="rich-content w-richtext">
+              {{.Content}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+{{end}}

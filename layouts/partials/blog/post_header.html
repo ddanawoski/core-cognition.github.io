@@ -1,0 +1,47 @@
+<!-- Structure for the Header of Blog post - single page -->
+<div class="blog-header">
+    <div class="container-big">
+      <div class="pages-header-inside">
+        <h1 class="blog-heading-text">{{.Params.Header.heading}}</h1>
+        <!-- Filter by related Tags and categories-->
+        <div class="filter-wrapper-blog">
+          <div class="filter-wrapper-blog">
+          <!-- Tags of Blog post -->
+          <div class="tags-blog-holder">
+            <div class="taxonomy-holder">
+              <div>Tags:</div>
+            </div>
+            <div>
+              {{range .Params.tags}}
+              <a href="/tags/{{.|urlize}}" class="tags-item-link">Kruger Dunning</a>
+              {{end}}
+            </div>
+          </div>
+          <!-- Categories of Blog post -->
+          <div class="tags-blog-holder">
+            <div class="taxonomy-holder">
+              <div>Categories:</div>
+            </div>
+            <div>
+              {{ range .Params.categories}}
+              <a href="/categories/{{.|urlize}}" class="tags-item-link">{{.}}</a>
+              {{end}}
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+
+        <!-- Structure of Author of Blog post -->
+        <div class="author-holder">
+          <div class="author-profile-image"></div>
+          <div class="author-content-holder">
+            {{range .Params.authors}}
+              <h2 class="author-name"> <a href="/authors/{{ . | urlize}}">{{.}}</a></h2>
+            {{end}}
+            <div>Published on <strong>{{ .PublishDate.Format "January 2, 2006" }}</strong></div>
+          </div>
+        </div>
+
+      </div>
+</div>
