@@ -19,5 +19,6 @@ collections:
       - label: "Header"
         name: "header"
         collapse: true
+        widget: "object"
         fields:
           - {label: 'Heading', name: 'heading', widget: 'string'}
