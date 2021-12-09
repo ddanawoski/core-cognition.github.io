@@ -24,7 +24,7 @@
   </a>
   <nav role="navigation" class="nav-menu w-nav-menu">
     {{- range .Site.Menus.navmenu -}}
-      <a href="{{.URL}}" class="nav-link w-nav-link">{{.Name}}</a>
+      <a href="{{.URL | absURL}}" class="nav-link w-nav-link">{{.Name}}</a>
     {{- end -}}
       <a href="/explore-site/" class="button nav w-button">Explore site</a>
   </nav>
