@@ -1,4 +1,3 @@
-baseURL = 'https://www.reverent-brown-d99ff9.netlify.app'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 defaultContentLanguage = 'en'
