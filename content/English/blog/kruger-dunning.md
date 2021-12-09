@@ -5,7 +5,6 @@ Seosection:
   description: ""
   image_OG: ""
 Author: null
-header: tions to life
 Header:
   heading: The Kruger-Dunning effect
   summary: Here we use the Kruger-Dunning effect to show what happens if you do
@@ -22,7 +21,6 @@ Tags:
   - omo
 Categories:
   - Kruger-Dunning
-description: tions to life
 ---
 In 1999, Justin Kruger and David Dunning wrote a paper called “Unskilled and Unaware of It: How Difficulties in Recognizing One’s Own Incompetence Lead to Inflated Self-Assessments”. They noted that “People tend to hold overly favorable views of their abilities in many social and intellectual domains”. Because of this they “reach erroneous conclusions and make unfortunate choices”. This makes sense: if you overestimate your abilities, at some point reality will prove you wrong and you will suffer unexpected and generally unfortunate consequences.
 

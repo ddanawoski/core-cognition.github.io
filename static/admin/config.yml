@@ -8,17 +8,14 @@ collections:
     label: 'Blog'
     folder: 'content/English/blog'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
       - label: "Header"
-        name: "header"
+        name: "Header"
         collapse: true
         widget: "object"
         fields:
-          - {label: 'Heading', name: 'heading', widget: 'string'}
+          - {label: 'Heading', name: 'heading', widget: 'string', required: false}
