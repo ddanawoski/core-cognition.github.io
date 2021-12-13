@@ -38,12 +38,13 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+
   - name: 'basic-Analysis'
-      label: 'Basic Analysis'
-      folder: 'content/English/basic-analysis'
-      create: true
-      editor:
-        preview: false
-      fields:
-        - { label: 'Title', name: 'title', widget: 'string' }
-        - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+    label: 'Basic Analysis'
+    folder: 'content/English/basic-analysis'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
