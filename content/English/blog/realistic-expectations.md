@@ -5,7 +5,7 @@ Seosection:
   description: ""
   image_OG: ""
 Author: null
-title: Kruger Dunning
+title: Realistic Expectation
 Header:
   heading: The Kruger-Dunning effect
   summary: Here we use the Kruger-Dunning effect to show what happens if you do
