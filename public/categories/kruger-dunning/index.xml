@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kruger-Dunning on My New Hugo Site</title>
+    <link>/categories/kruger-dunning/</link>
+    <description>Recent content in Kruger-Dunning on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Nov 2021 01:17:27 -0800</lastBuildDate><atom:link href="/categories/kruger-dunning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kruger Dunning</title>
+      <link>/blog/kruger-dunning/</link>
+      <pubDate>Sun, 28 Nov 2021 01:17:27 -0800</pubDate>
+      
+      <guid>/blog/kruger-dunning/</guid>
+      <description>In 1999, Justin Kruger and David Dunning wrote a paper called “Unskilled and Unaware of It: How Difficulties in Recognizing One’s Own Incompetence Lead to Inflated Self-Assessments”. They noted that “People tend to hold overly favorable views of their abilities in many social and intellectual domains”. Because of this they “reach erroneous conclusions and make unfortunate choices”. This makes sense: if you overestimate your abilities, at some point reality will prove you wrong and you will suffer unexpected and generally unfortunate consequences.</description>
+    </item>
+    
+  </channel>
+</rss>

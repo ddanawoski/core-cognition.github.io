@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hi on My New Hugo Site</title>
+    <link>/tags/hi/</link>
+    <description>Recent content in hi on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Nov 2021 05:44:45 -0800</lastBuildDate><atom:link href="/tags/hi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Relation to Life</title>
+      <link>/analyses/another/</link>
+      <pubDate>Sat, 27 Nov 2021 05:44:45 -0800</pubDate>
+      
+      <guid>/analyses/another/</guid>
+      <description>This 4 section series is based on a recent paper (Andringa &amp;amp; Denham, 2021) in which we outline the basics of core cognition starting from the demands to being and remaining alive and maximizing viability of self and habitat. In it we derive core cognition and its two main modes, coping and co-creation, from first principles.
+This page pertains to living agents in general.
+With this text come two tables:</description>
+    </item>
+    
+    <item>
+      <title>Relation to Life</title>
+      <link>/analyses/relation-to-life/</link>
+      <pubDate>Sat, 27 Nov 2021 05:44:45 -0800</pubDate>
+      
+      <guid>/analyses/relation-to-life/</guid>
+      <description>This 4 section series is based on a recent paper (Andringa &amp;amp; Denham, 2021) in which we outline the basics of core cognition starting from the demands to being and remaining alive and maximizing viability of self and habitat. In it we derive core cognition and its two main modes, coping and co-creation, from first principles.
+This page pertains to living agents in general.
+With this text come two tables:</description>
+    </item>
+    
+    <item>
+      <title>Why</title>
+      <link>/basic-insight/relation-to-life/</link>
+      <pubDate>Sat, 27 Nov 2021 05:44:45 -0800</pubDate>
+      
+      <guid>/basic-insight/relation-to-life/</guid>
+      <description>This 4 section series is based on a recent paper (Andringa &amp;amp; Denham, 2021) in which we outline the basics of core cognition starting from the demands to being and remaining alive and maximizing viability of self and habitat. In it we derive core cognition and its two main modes, coping and co-creation, from first principles.
+This page pertains to living agents in general.
+With this text come two tables:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="279" height="552" viewBox="0 0 279 552">
+  <g id="Group_59" data-name="Group 59" transform="translate(-1748 -93)">
+    <g id="Group_46" data-name="Group 46" transform="translate(38 -58)">
+      <g id="Polygon_1" data-name="Polygon 1" transform="translate(1808 297)" fill="none" opacity="0.27">
+        <path d="M83,0l83,125H0Z" stroke="none"/>
+        <path d="M 83 14.46232604980469 L 14.91497802734375 117 L 151.0850219726563 117 L 83 14.46232604980469 M 83 0 L 166 125 L 0 125 L 83 0 Z" stroke="none" fill="#456737"/>
+      </g>
+      <g id="Polygon_2" data-name="Polygon 2" transform="translate(1799 216)" fill="none" opacity="0.1">
+        <path d="M95,0l95,144H0Z" stroke="none"/>
+        <path d="M 95 14.52745056152344 L 14.86186218261719 136 L 175.1381378173828 136 L 95 14.52745056152344 M 95 0 L 190 144 L 0 144 L 95 0 Z" stroke="none" fill="#456737"/>
+      </g>
+      <g id="Path_5" data-name="Path 5" transform="translate(1710 151)" fill="none" opacity="0.07">
+        <path d="M109.5,0,219,165H0Z" stroke="none"/>
+        <path d="M 109.5 14.46783447265625 L 14.91047668457031 157 L 204.0895233154297 157 L 109.5 14.46783447265625 M 109.5 0 L 219 165 L 0 165 L 109.5 0 Z" stroke="none" fill="#456737"/>
+      </g>
+    </g>
+    <g id="Group_47" data-name="Group 47" transform="translate(38 223)">
+      <g id="Polygon_1-2" data-name="Polygon 1" transform="translate(1808 297)" fill="none" opacity="0.29">
+        <path d="M83,0l83,125H0Z" stroke="none"/>
+        <path d="M 83 14.46232604980469 L 14.91497802734375 117 L 151.0850219726563 117 L 83 14.46232604980469 M 83 0 L 166 125 L 0 125 L 83 0 Z" stroke="none" fill="#456737"/>
+      </g>
+      <g id="Polygon_2-2" data-name="Polygon 2" transform="translate(1799 216)" fill="none" opacity="0.29">
+        <path d="M95,0l95,144H0Z" stroke="none"/>
+        <path d="M 95 14.52745056152344 L 14.86186218261719 136 L 175.1381378173828 136 L 95 14.52745056152344 M 95 0 L 190 144 L 0 144 L 95 0 Z" stroke="none" fill="#456737"/>
+      </g>
+      <g id="Polygon_3" data-name="Polygon 3" transform="translate(1710 151)" fill="none" opacity="0.1">
+        <path d="M109.5,0,219,165H0Z" stroke="none"/>
+        <path d="M 109.5 14.46783447265625 L 14.91047668457031 157 L 204.0895233154297 157 L 109.5 14.46783447265625 M 109.5 0 L 219 165 L 0 165 L 109.5 0 Z" stroke="none" fill="#456737"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Nov 2021 03:55:25 -0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kruger Dunning</title>
+      <link>/blog/kruger-dunning/</link>
+      <pubDate>Sun, 28 Nov 2021 01:17:27 -0800</pubDate>
+      
+      <guid>/blog/kruger-dunning/</guid>
+      <description>In 1999, Justin Kruger and David Dunning wrote a paper called “Unskilled and Unaware of It: How Difficulties in Recognizing One’s Own Incompetence Lead to Inflated Self-Assessments”. They noted that “People tend to hold overly favorable views of their abilities in many social and intellectual domains”. Because of this they “reach erroneous conclusions and make unfortunate choices”. This makes sense: if you overestimate your abilities, at some point reality will prove you wrong and you will suffer unexpected and generally unfortunate consequences.</description>
+    </item>
+    
+    <item>
+      <title>Realistic Expectation</title>
+      <link>/blog/realistic-expectations/</link>
+      <pubDate>Sun, 28 Nov 2021 01:17:27 -0800</pubDate>
+      
+      <guid>/blog/realistic-expectations/</guid>
+      <description>Here we use the Kruger-Dunning effect to show what happens if you do not acquire real-world comptences and instead get stuck in a narrative or ideology that you take, by default as true, because you avoid testing it in the real world.</description>
+    </item>
+    
+    <item>
+      <title>Relation to Life</title>
+      <link>/analyses/another/</link>
+      <pubDate>Sat, 27 Nov 2021 05:44:45 -0800</pubDate>
+      
+      <guid>/analyses/another/</guid>
+      <description>This 4 section series is based on a recent paper (Andringa &amp;amp; Denham, 2021) in which we outline the basics of core cognition starting from the demands to being and remaining alive and maximizing viability of self and habitat. In it we derive core cognition and its two main modes, coping and co-creation, from first principles.
+This page pertains to living agents in general.
+With this text come two tables:</description>
+    </item>
+    
+    <item>
+      <title>Relation to Life</title>
+      <link>/analyses/relation-to-life/</link>
+      <pubDate>Sat, 27 Nov 2021 05:44:45 -0800</pubDate>
+      
+      <guid>/analyses/relation-to-life/</guid>
+      <description>This 4 section series is based on a recent paper (Andringa &amp;amp; Denham, 2021) in which we outline the basics of core cognition starting from the demands to being and remaining alive and maximizing viability of self and habitat. In it we derive core cognition and its two main modes, coping and co-creation, from first principles.
+This page pertains to living agents in general.
+With this text come two tables:</description>
+    </item>
+    
+    <item>
+      <title>Relation to Life</title>
+      <link>/basic-insight/coping-and-co-creation/</link>
+      <pubDate>Sat, 27 Nov 2021 05:44:45 -0800</pubDate>
+      
+      <guid>/basic-insight/coping-and-co-creation/</guid>
+      <description>This 4 section series is based on a recent paper (Andringa &amp;amp; Denham, 2021) in which we outline the basics of core cognition starting from the demands to being and remaining alive and maximizing viability of self and habitat. In it we derive core cognition and its two main modes, coping and co-creation, from first principles.
+This page pertains to living agents in general.
+With this text come two tables:</description>
+    </item>
+    
+    <item>
+      <title>Why</title>
+      <link>/basic-insight/relation-to-life/</link>
+      <pubDate>Sat, 27 Nov 2021 05:44:45 -0800</pubDate>
+      
+      <guid>/basic-insight/relation-to-life/</guid>
+      <description>This 4 section series is based on a recent paper (Andringa &amp;amp; Denham, 2021) in which we outline the basics of core cognition starting from the demands to being and remaining alive and maximizing viability of self and habitat. In it we derive core cognition and its two main modes, coping and co-creation, from first principles.
+This page pertains to living agents in general.
+With this text come two tables:</description>
+    </item>
+    
+    <item>
+      <title>404</title>
+      <link>/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/404/</guid>
+      <description>The page you are looking for doesn&amp;rsquo;t exist or has been moved</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>The Core Cognition website is a project dedicated to study the scientific and societal impact of core cognition; the cognition shared by all of life. Its purpose is to empower you with broad scientific insights that help you understand yourself, others, society, and in general the biosphere
+The basics of core cognition is outlined in two section. Section 1 addresses how core cognition arises from the demands of life. Section 2 addresses the key properties of coping and co-creation that emerge as two modes of being.</description>
+    </item>
+    
+    <item>
+      <title>Explore Site</title>
+      <link>/explore-site/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/explore-site/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why not working</title>
+      <link>/blog/why-not-working/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/why-not-working/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
