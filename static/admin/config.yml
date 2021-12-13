@@ -77,3 +77,14 @@ collections:
             widget: "object"
             fields:
               - { label: 'heading', name: 'heading', widget: 'string'}
+              - { label: 'content', name: 'content', widget: 'text'}
+              - { label: 'Featured image', name: 'featuredimage', widget: 'image'}
+
+          - label: "Second Section"
+            name: "Secondsection"
+            collapse: true
+            widget: "object"
+            fields:
+              - { label: 'heading', name: 'heading', widget: 'string'}
+              - { label: 'content', name: 'content', widget: 'text'}
+              - { label: 'Background Image', name: 'background_img', widget: 'image'}
