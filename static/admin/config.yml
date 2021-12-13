@@ -39,9 +39,9 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
 
-  - name: 'basic-Analysis'
-    label: 'Basic Analysis'
-    folder: 'content/English/basic-analysis'
+  - name: 'basic Insight'
+    label: 'basic-insight'
+    folder: 'content/English/basic-insight'
     create: true
     editor:
       preview: false
