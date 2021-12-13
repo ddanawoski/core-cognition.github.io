@@ -67,6 +67,13 @@ collections:
     files:
       - label : "Homepage"
         name: "Homepage"
-        file: "/content/english/_index.md"
+        file: "/content/English/_index.md"
         fields:
           - { label: 'dataId', name: 'dataId', widget: 'string'}
+          - { label: 'dataId', name: 'translationKey', widget: 'string'}
+          - label: "Top Header"
+            name: "HeaderContent"
+            collapse: true
+            widget: "object"
+            fields:
+              - { label: 'heading', name: 'heading', widget: 'string'}
