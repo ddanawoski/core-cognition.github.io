@@ -21,6 +21,12 @@ Categories: []
 Authors: ["Tjeerd Andringa"]
 
 ---
+
+| Syntax      | Description | Hi  |
+| ----------- | ----------- | --- |
+| Header      | Title       | --- |
+| Paragraph   | Text        |
+
 This 4 section series is based on a recent paper (Andringa & Denham, 2021) in which we outline the basics of core cognition starting from the demands to being and remaining alive and maximizing viability of self and habitat. In it we derive core cognition and its two main modes, coping and co-creation, from first principles.
 
 This page pertains to living agents in general.
