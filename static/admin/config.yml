@@ -27,14 +27,14 @@ collections:
       - label: "tags"
         name: "tags"
         widget: "list"
-      - label : "Seosection"
-        name: "SEO Section"
+      - label : "Seo section"
+        name: "SeoSection"
         collapse: true
         widget: "object"
         fields:
-          - {label: 'Title', name:'title', widget:'string'}
-          - {label: 'description', name:'description', widget:'text'}
-          - {label: 'Social Media Image', name:'image_OG', widget:'image'}
+          - {label: 'Title', name: 'title', widget: 'string'}
+          - {label: 'description', name: 'description', widget: 'text'}
+          - {label: 'Social Media Image', name: 'image_OG', widget: 'image'}
 
   - name: 'tags'
     label: 'tags'
