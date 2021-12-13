@@ -26,7 +26,7 @@ collections:
           - {label: 'Youtube Video', name: 'featuredvideo', widget: 'string', required: false, hint: 'example 6R8Bn9SmVG8'}
 
       - label: "tags"
-        name: "Tags"
+        name: "tags"
         widget: "list"
 
   - name: 'tags'
@@ -38,3 +38,12 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+  - name: 'basic-Analysis'
+      label: 'Basic Analysis'
+      folder: 'content/English/basic-analysis'
+      create: true
+      editor:
+        preview: false
+      fields:
+        - { label: 'Title', name: 'title', widget: 'string' }
+        - { label: 'Body', name: 'body', widget: 'markdown', required: false }
