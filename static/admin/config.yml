@@ -26,9 +26,8 @@ collections:
           - {label: 'Youtube Video', name: 'featuredvideo', widget: 'string', required: false, hint: 'example 6R8Bn9SmVG8'}
 
       - label: "tags"
-        name: "tags"
+        name: "Tags"
         widget: "list"
-        default: ["Kruger-Dunning"]
 
   - name: 'Tags'
     label: 'Tags'
