@@ -29,10 +29,6 @@ collections:
         name: "tags"
         widget: "list"
         default: ["Kruger-Dunning"]
-      - label: "tags"
-        name: "tags"
-        widget: "select"
-        default: ["Kruger-Dunning"]
 
   - name: 'Tags'
     label: 'Tags'
