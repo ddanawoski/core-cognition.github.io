@@ -29,3 +29,17 @@ collections:
         name: "tags"
         widget: "list"
         default: ["Kruger-Dunning"]
+      - label: "tags"
+        name: "tags"
+        widget: "select"
+        default: ["Kruger-Dunning"]
+
+  - name: 'Tags'
+    label: 'Tags'
+    folder: 'content/English/Tags'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
