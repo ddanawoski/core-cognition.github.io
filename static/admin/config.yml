@@ -30,7 +30,7 @@ collections:
         widget: "list"
 
   - name: 'Tags'
-    label: 'Tags'
+    label: 'tags'
     folder: 'content/tags'
     create: true
     editor:
