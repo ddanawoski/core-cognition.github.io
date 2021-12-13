@@ -18,8 +18,10 @@ collections:
         collapse: true
         widget: "object"
         fields:
-          - {label: 'Header', name: 'heading', widget: 'string', required: false}
-          - {label: 'Header', name: 'summary', widget: 'string', required: false}
-          - {label: 'Header', name: 'featuredimage', widget: 'image', required: false}
-          - {label: 'Header', name: 'Alternative Test', widget: 'string'}
-          - {label: 'Header', name: 'featuredvideo', widget: 'videocode', required: false, hint: 'example 6R8Bn9SmVG8'}
+          - {label: 'Heading', name: 'heading', widget: 'string', required: false}
+          - {label: 'Summary', name: 'summary', widget: 'string', required: false}
+          - {label: 'Featured Image', name: 'featuredimage', widget: 'image', required: false}
+          - {label: 'Alt Text', name: 'alternativetext', widget: 'string'}
+          - {label: 'Youtube Video', name: 'featuredvideo', widget: 'string', required: false, hint: 'example 6R8Bn9SmVG8'}
+          
+      - { label: 'Tags', name: 'Tags', widget: 'list', required: false }
