@@ -1,25 +1,27 @@
 ---
-title: "Kruger Dunning"
-date: 2021-11-28T01:17:27-08:00
 draft: false
-
-#This is the Seo Section
 Seosection:
   title: ""
-  description : ""
+  description: ""
   image_OG: ""
-
+Author: null
+title: Kruger Dunning
 Header:
-  heading: "The Kruger-Dunning effect"
-  summary: "Here we use the Kruger-Dunning effect to show what happens if you do not acquire real-world comptences and instead get stuck in a narrative or ideology that you take, by default as true, because you avoid testing it in the real world."
-  featuredimage: "/images/cam2.jpg"
+  heading: The Kruger-Dunning effect
+  summary: Here we use the Kruger-Dunning effect to show what happens if you do
+    not acquire real-world comptences and instead get stuck in a narrative or
+    ideology that you take, by default as true, because you avoid testing it in
+    the real world.
+  featuredimage: /images/cam2.jpg
   featuredvideo: ""
-  alternativetext: ""
-
-Tags : ["Kruger-Dunning"]
-Categories: ["Kruger-Da"]
-Author:
-
+  alternativetext: Kruger dunning
+date: 2021-11-28T01:17:27-08:00
 url: ""
+tags:
+  - hello
+Tags:
+  - Kruger-Dunning
+Categories:
+  - Kruger-Da
 ---
 Here we use the Kruger-Dunning effect to show what happens if you do not acquire real-world comptences and instead get stuck in a narrative or ideology that you take, by default as true, because you avoid testing it in the real world.
