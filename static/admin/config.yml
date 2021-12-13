@@ -4,6 +4,7 @@ backend:
 media_folder: static/images
 public_folder: /images
 collections:
+  # Blog config
   - name: 'blog'
     label: 'Blog'
     folder: 'content/English/blog'
@@ -12,8 +13,8 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
       - { label: 'slug', name: 'url', widget: 'list', required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown', required: false }
       - label: "Header"
         name: "Header"
         collapse: true
@@ -24,9 +25,12 @@ collections:
           - {label: 'Featured Image', name: 'featuredimage', widget: 'image', required: false}
           - {label: 'Alt Text', name: 'alternativetext', widget: 'string'}
           - {label: 'Youtube Video', name: 'featuredvideo', widget: 'string', required: false, hint: 'example 6R8Bn9SmVG8'}
-      - label: "tags"
-        name: "tags"
+      - label: "Tags"
+        name: "Tags"
         widget: "list"
+      - {label: 'Categories', name: 'Categories', widget: 'list'}
+      - {label: 'Author', name: 'Author', widget: 'list'}
+
       - label : "Seo section"
         name: "SeoSection"
         collapse: true
@@ -36,8 +40,8 @@ collections:
           - {label: 'description', name: 'description', widget: 'text'}
           - {label: 'Social Media Image', name: 'image_OG', widget: 'image'}
 
-  - name: 'tags'
-    label: 'tags'
+  - name: 'Tags'
+    label: 'Tags'
     folder: 'content/English/tags'
     create: true
     editor:
@@ -55,3 +59,14 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+
+  #page Configuration
+
+  - name: 'Pages'
+    label: 'pages'
+    files:
+      - label : "Homepage"
+        name: "Homepage"
+        file: "/content/english/_index.md"
+        fields:
+          - { label: 'dataId', name: 'dataId', widget: 'string'}

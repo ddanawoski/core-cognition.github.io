@@ -10,6 +10,7 @@ Seosection:
   seoDescription : ""
   socialimageThumbnail: ""
 
+#This is the summary blog
 Header:
   heading: ""
   summary: ""
