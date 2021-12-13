@@ -4,6 +4,7 @@
     <div class="container-big">
       <div class="breadcrumb-wrap">
         <a href="#" class="breadcrumb-links">Home</a>
+        {{if .IsSection}} <a href="#" class="breadcrumb-links">{{.Section}}</a> {{end}}
         <a href="{{.Permalink}}" aria-current="page" class="breadcrumb-links w--current">{{.URL}}</a>
       </div>
     </div>

@@ -1,5 +1,5 @@
 ---
-title: "Relation to Life"
+title: "Why"
 date: 2021-11-27T05:44:45-08:00
 draft: false
 
@@ -9,7 +9,7 @@ Seosection:
   image_OG: ""
 
 Header:
-  heading: "Core cognition derived from life's defining properties"
+  heading: "Daniel is testing out this section"
   summary: "This first section we outline the basics of core cognition starting from the demands to being and remaining alive and maximizing viability of self and habitat. In it we derive core cognition and its two main modes, coping and co-creation, from the defining properties of life."
 
 Media:

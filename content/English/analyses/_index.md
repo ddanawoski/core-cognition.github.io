@@ -2,7 +2,7 @@
 dataId: "619ccc92e2a53a0af2a41673"
 title: "Basic Insight"
 date: 2021-11-27T10:15:34-08:00
-draft: true
+draft: false
 
 Seosection:
   title: ""

@@ -1,0 +1,18 @@
+{{define "mainContent"}}
+  {{- partial "breadcrumb_code" . -}}
+  <div class="page-header blog">
+      <div class="container-big">
+        <div class="pages-header-inside">
+          <h1 class="color-text-white">{{.Title}}</h1>
+        </div>
+      </div>
+  </div>
+  <section>
+    <div class="page-padding">
+      <div class="container-small">
+        {{.Content}}
+        {{- partial "forms/contact-us" . -}}
+      </div>
+    </div>
+  </section>
+{{end}}

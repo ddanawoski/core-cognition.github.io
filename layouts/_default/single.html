@@ -16,17 +16,23 @@
 
         <div class="blog-post-structure">
           <div class="tableofcontent">
-            <h2 class="toc-heading">Table of Content</h2>
-            <div>
-               {{ .TableOfContents }}
+            <div data-w-id="28873302-fd29-7053-b0b0-151971dd5b46" class="toc-header">
+              <h2 class="toc-heading">Table of Content</h2>
+              <div class="drop-down-icon">󰅀</div>
+            </div>
+
+            <div class="toc-content">
+                {{ .TableOfContents }}
             </div>
           </div>
+
           <div>
             <div class="div-block"><img src="{{.Params.Media.featuredimage}}" alt="{{.Params.Media.alt}}"></div>
             <div class="rich-content w-richtext">
               {{.Content}}
             </div>
           </div>
+
         </div>
       </div>
     </div>
@@ -38,7 +44,7 @@
 
       {{- $presentSection := .Section -}}
       {{- range first 3 (where .Site.RegularPages "Section" $presentSection) -}}
-        {{partial "insight_basic_blog_holder" .}}
+        {{partial "structure_list/structure_listed" .}}
       {{- end -}}
 
     </div>

@@ -1,17 +1,17 @@
 <section>
   <div class="page-padding">
     <div class="container-big">
-
       <div class="blog-structure">
-        {{range .Pages}}
+        {{- range .Pages -}}
         <div class="blog-summary-item">
           {{ range .Params.categories}}
           <a href="/categories/{{.|urlize}}" class="category-holder w-inline-block">
             <div>{{.}}</div>
           </a>
           {{end}}
-          <a href="{{.Permalink}}" class="blog-item-link w-inline-block">
-            <div class="blog-featured-img"><img src="{{.Params.Header.featuredimage}}" loading="lazy" alt="">
+          <a data-w-id="936c94a5-ee06-2fd5-70b1-8b2927233bbc" href="{{.Permalink}}" class="blog-item-link w-inline-block">
+            <div class="blog-featured-img">
+              <img src="{{.Params.Header.featuredimage}}" class="blog-img" loading="lazy" alt="{{.Params.Header.alternativetext}}">
               {{with .Params.Header.featuredvideo}}
               <div class="abs-blog-summary">
                 <div>Video Blog</div>
@@ -25,8 +25,8 @@
                 {{.Content}}
           </div>
         </div>
+        {{- end -}}
 
-        {{end}}
       </div>
     </div>
   </div>

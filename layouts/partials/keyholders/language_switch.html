@@ -1,0 +1,11 @@
+<div data-w-id="67489426-04b0-f346-d7fe-dbc5e5455309" class="language-picker">
+  <div>{{.Language.LanguageName}}</div>
+  <div class="sm-mtr-language">󰅀</div>
+</div>
+<div class="language-options">
+  {{- range .Translations -}}
+  <a href="{{.Permalink}}" class="languages w-inline-block">
+    <div>{{.Language.LanguageName}}</div>
+  </a>
+  {{- end -}}
+</div>

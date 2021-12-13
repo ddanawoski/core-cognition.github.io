@@ -18,4 +18,8 @@ collections:
         collapse: true
         widget: "object"
         fields:
-          - {label: 'Heading', name: 'heading', widget: 'string', required: false}
+          - {label: 'Header', name: 'heading', widget: 'string', required: false}
+          - {label: 'Header', name: 'summary', widget: 'string', required: false}
+          - {label: 'Header', name: 'featuredimage', widget: 'image', required: false}
+          - {label: 'Header', name: 'Alternative Test', widget: 'string'}
+          - {label: 'Header', name: 'featuredvideo', widget: 'videocode', required: false, hint: 'example 6R8Bn9SmVG8'}

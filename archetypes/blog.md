@@ -2,7 +2,9 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
+url: ""
 
+#This is the Seo Section
 Seosection:
   seoTitle: ""
   seoDescription : ""
@@ -12,10 +14,10 @@ Header:
   heading: ""
   summary: ""
   featuredimage: ""
+  alternativetext: ""
+  featuredvideo: ""
 
 Tags : []
 Categories: []
 Author:
-
-url: ""
 ---

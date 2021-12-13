@@ -3,14 +3,15 @@
 <div class="page-header blog">
     <div class="container-big">
       <div class="pages-header-inside">
-        {{partial "header-crumbs/name_section" .}}
+        {{/* This loads the partial header-crumbs */}}
+        {{- partial "header-crumbs/name_section" . -}}
 
         <!-- Filter the Blog section -->
         {{partial "blog/filter_wrapper_blog_list" .}}
       </div>
     </div>
+    <div class="abs-blog-header"><img src="{{.Params.Header.img_background}}" loading="lazy" alt=""></div>
 </div>
-
-{{partial "blog/summary_layout_blog_post" .}}
+{{- partial "blog/summary_layout_blog_post" . -}}
 
 {{end}}

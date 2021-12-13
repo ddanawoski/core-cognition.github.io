@@ -1,7 +1,9 @@
 baseURL = ''
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+
 defaultContentLanguage = 'en'
+
 ## disableLanguages = ['nl']
 
 ##Languages code
@@ -42,8 +44,10 @@ defaultContentLanguage = 'en'
   contentDir = 'content/French'
   languageName = 'FR'
   weight  = 5
-
-
+  [[languages.fr.menu.navmenu]]
+    name = 'BASIC INSIGHT'
+    url = '/basic-insight'
+    weight = 1
 
 
 ##Taxonomies
@@ -63,4 +67,4 @@ alt = "asds"
 url = "/"
 favicon = ""
 blogpostId = "619f99a4cb879275fad566e6"
-dataId = "61996b3541cc105c084a9af1"
+siteId = "61996b3541cc105c084a9af1"

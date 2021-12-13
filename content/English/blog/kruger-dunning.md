@@ -1,19 +1,21 @@
 ---
+title: "Kruger Dunning"
+date: 2021-11-28T01:17:27-08:00
 draft: false
+
+#This is the Seo Section
 Seosection:
   title: ""
   description: ""
   image_OG: ""
-Author: null
+
 Header:
   heading: The Kruger-Dunning effect
-  summary: Here we use the Kruger-Dunning effect to show what happens if you do
-    not acquire real-world comptences and instead get stuck in a narrative or
-    ideology that you take, by default as true, because you avoid testing it in
-    the real world.
+  summary: Here we use the Kruger-Dunning effect to show what happens if you do not acquire real-world comptences and instead get stuck in a narrative or ideology that you take, by default as true, because you avoid testing it in the real world.
   featuredimage: /images/cam2.jpg
+  alternativetext: ""
   featuredvideo: 6R8Bn9SmVG8
-date: 2021-11-28T01:17:27-08:00
+
 url: ""
 title: Kruger Dunning
 Tags:
@@ -21,6 +23,7 @@ Tags:
   - omo
 Categories:
   - Kruger-Dunning
+Author: null
 ---
 In 1999, Justin Kruger and David Dunning wrote a paper called “Unskilled and Unaware of It: How Difficulties in Recognizing One’s Own Incompetence Lead to Inflated Self-Assessments”. They noted that “People tend to hold overly favorable views of their abilities in many social and intellectual domains”. Because of this they “reach erroneous conclusions and make unfortunate choices”. This makes sense: if you overestimate your abilities, at some point reality will prove you wrong and you will suffer unexpected and generally unfortunate consequences.
 

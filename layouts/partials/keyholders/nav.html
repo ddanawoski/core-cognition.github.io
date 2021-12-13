@@ -1,0 +1,36 @@
+<!-- This is the Navbar code -->
+<div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navigation w-nav">
+<div class="container-big navbar">
+
+  <!-- This code imports logo -->
+  {{- $homelink := "/" | relLangURL -}}
+  <a href="{{ $homelink }}" aria-current="page" class="brand w-nav-brand w--current" aria-label="">
+    <img src="{{.Site.Params.logo}}" loading="lazy" alt="">
+  </a>
+  <!-- The following code is the Site Menu -->
+  <nav role="navigation" class="nav-menu w-nav-menu">
+    {{- range .Site.Menus.navmenu -}}
+      <a href="{{.URL | absLangURL}}" class="nav-link w-nav-link">{{.Name}}</a>
+    {{- end -}}
+
+      <a href="/explore-site/" class="button nav w-button">Explore site</a>
+      <!-- This code is the language structure -->
+
+      {{ if .IsTranslated}}
+      <div class="language-holder desktop">
+            {{- partial "keyholders/language_switch" . -}}
+      </div>
+      {{end}}
+
+  </nav>
+
+  <div class="mobile-desktop">
+    {{ if .IsTranslated}}
+    {{- partial "keyholders/language_switch" . -}}
+    {{end}}
+    <div class="hamburger w-nav-button">
+          <div class="w-icon-nav-menu"></div>
+        </div>
+  </div>
+</div> <!--language ends here -->
+</div>

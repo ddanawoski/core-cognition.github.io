@@ -3,16 +3,18 @@
 <div class="page-header">
     <div class="container-big">
       <div class="pages-header-inside">
-        <h1 class="color-text-white">{{.Section}}</h1>
+        {{/* This loads the partial header-crumbs */}}
+        {{- partial "header-crumbs/name_section" . -}}
         <p class="text-subpages">{{.Params.Header.summary}}</p>
       </div>
     </div>
-  </div>
+    <div class="abs-header"><img src="{{.Params.Header.img_background}}" loading="lazy" alt=""></div>
+</div>
 <section>
   <div class="page-padding">
     <div class="container-big">
       {{range .Pages }}
-        {{partial "insight_basic_blog_holder" .}}
+        {{partial "structure_list/structure_listed" .}}
       {{end}}
     </div>
   </div>
