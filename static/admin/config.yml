@@ -31,7 +31,7 @@ collections:
 
   - name: 'Tags'
     label: 'Tags'
-    folder: 'content/English/Tags'
+    folder: 'content/tags'
     create: true
     editor:
       preview: false
