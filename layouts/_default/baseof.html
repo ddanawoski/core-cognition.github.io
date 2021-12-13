@@ -7,6 +7,7 @@
     {{- partial "keyholders/head_meta" . -}}
   </head>
   <body>
+    {{range where .Site.Pages "Section" "tags"}} {{.Title}} {{end}}
     <!-- -import Navigation code -->
     {{- partial "keyholders/nav" . -}}
     <!-- -Define the complete Main Content of all pages -->

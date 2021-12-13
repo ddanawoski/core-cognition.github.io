@@ -29,7 +29,7 @@ collections:
         name: "Tags"
         widget: "list"
 
-  - name: 'Tags'
+  - name: 'tags'
     label: 'tags'
     folder: 'content/English/tags'
     create: true
