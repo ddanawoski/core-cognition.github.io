@@ -13,6 +13,7 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
+      - { label: 'slug', name: 'url', widget: 'list', required: false }
       - label: "Header"
         name: "Header"
         collapse: true
@@ -23,5 +24,8 @@ collections:
           - {label: 'Featured Image', name: 'featuredimage', widget: 'image', required: false}
           - {label: 'Alt Text', name: 'alternativetext', widget: 'string'}
           - {label: 'Youtube Video', name: 'featuredvideo', widget: 'string', required: false, hint: 'example 6R8Bn9SmVG8'}
-          
-      - { label: 'Tags', name: 'Tags', widget: 'list', required: false }
+
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: ["Kruger-Dunning"]
